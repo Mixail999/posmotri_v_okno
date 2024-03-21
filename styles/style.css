@@ -258,7 +258,7 @@ input[type="text"]::placeholder {
 .content__card-link {
   display: block;
   text-decoration: none;
-  padding: 2px;
+  margin: 2px;
 }
 
 .content__card-link_current {
@@ -277,7 +277,7 @@ input[type="text"]::placeholder {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 260px;
+  max-width: 200px;
 }
 
 .content__video-card-description {
@@ -286,14 +286,17 @@ input[type="text"]::placeholder {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16.2px; /* 90% */
+  line-height: 16.2px; 
+  max-width: 200px;
 }
 
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position: center;
 }
+
 
 input[type="text"]:focus {
   outline: none;
